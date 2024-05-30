@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .common{
+                width: 200px;
+                height: 200px;
+                border:1px solid gray;
+                border-radius:100px;
+                float:left;
+                animation-name:bouncing;
+                animation-duration:1s;
+                animation-iteration-count:infinite;
+                animation-direction:alternate;
+                animation-timing-function:ease-in;
+            }
+            @keyframes bouncing{
+                from{
+                    transform: translate(0px,0px);    
+                }
+                to{
+                    transform: translate(0px,520px);
+                }
+            }
+
+            .a{
+                background-color: purple;
+            }
+            .b{
+                animation-delay:0.1s;
+                background-color: lavender;
+            }
+            .c{
+                animation-delay:0.2s;
+                background-color: pink;
+            }
+            .d{
+                animation-delay:0.3s;
+                background-color: BlueViolet;
+            }
+            .e{
+                animation-delay:0.4s;
+                background-color: Chocolate;
+            }
+            .f{
+                animation-delay:0.5s;
+                background-color: DarkOliveGreen;
+            }
+            .g{
+                animation-delay:0.6s;
+                background-color: greenyellow;
+            }
+        </style>
+        <title>Bouncing Ball Effect using CSS</title>
+    </head>
+    <body>
+        <div id="" class="common a"></div>
+        <div id="" class="common b"></div>
+        <div id="" class="common c"></div>
+        <div id="" class="common d"></div>
+        <div id="" class="common e"></div>
+        <div id="" class="common f"></div>
+        <div id="" class="common g"></div>
+    </body>
+</html>
